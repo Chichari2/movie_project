@@ -1,0 +1,46 @@
+body {
+    background: #F5F5F0;
+    color: black;
+    font-family: Monaco;
+}
+
+.list-movies-title {
+    padding: 10px 0;
+    background: #009B50;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    list-style-type: none; /* Remove bullet points */
+}
+
+.movie {
+    width: 100%;
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.movie-title,
+.movie-year {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.movie-title {
+    margin-top: 10px;
+}
+
+.movie-year {
+    color: #999;
+}
